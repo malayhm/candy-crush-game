@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  transition: all 300ms ease-in-out;
+}
+
+html {
+  font-size: 16px;
+  font-family: -apple-system,
+               BlinkMacSystemFont,
+               "Segoe UI",
+               Roboto,
+               Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.candy-crush-container {
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .toggle-sound {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    
+    img {
+      height: 1.5rem;
+    }
+  }
+
+  .board {
+    border: 1px solid #c5c5c5;
+    position: relative;
+  }
+
+  .restart-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+    background: #fff;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 2rem;
+
+    button {
+      opacity: 1;
+      padding: 0.25rem;
+      margin: 1rem;
+    }
+  }
+  
+  .row {
+    min-height: 3rem;
+    height: 3rem;
+    width: 30rem;
+  }
+
+  .box {
+    display: inline-block;
+    min-height: 3rem;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    content: "";
+
+    &.red {
+      background: red;
+    }
+
+    &.green {
+      background: green;
+    }
+
+    &.blue {
+      background: blue;
+    }
+
+    &.yellow {
+      background: yellow;
+    }
+
+    &:hover {
+      opacity: 0.5;
+      box-shadow: 0 1px 1px rgba(9,30,66,0.25),
+                  0 0 1px 0 rgba(9,30,66,0.31);
+    }
+  }
+}

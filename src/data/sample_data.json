@@ -1,0 +1,150 @@
+{
+  "small_grid": [
+    [
+      { "colorCode": "red" },
+      { "colorCode": "blue" },
+      { "colorCode": "green" },
+      { "colorCode": "yellow" }
+    ],
+    [
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "red" }
+    ],
+    [
+      { "colorCode": "green" },
+      { "colorCode": "red" },
+      { "colorCode": "green" },
+      { "colorCode": "green" }
+    ],
+    [
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" }
+    ]
+  ],
+  "grid": [
+    [
+      { "colorCode": "red" },
+      { "colorCode": "blue" },
+      { "colorCode": "green" },
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "yellow" },
+      { "colorCode": "green" }
+    ],
+    [
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "red" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" },
+      { "colorCode": "red" },
+      { "colorCode": "blue" },
+      { "colorCode": "red" },
+      { "colorCode": "yellow" }
+    ],
+    [
+      { "colorCode": "green" },
+      { "colorCode": "red" },
+      { "colorCode": "green" },
+      { "colorCode": "green" },
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" }
+    ],
+    [
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" },
+      { "colorCode": "red" },
+      { "colorCode": "green" },
+      { "colorCode": "red" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" },
+      { "colorCode": "yellow" }
+    ],
+    [
+      { "colorCode": "blue" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" },
+      { "colorCode": "blue" },
+      { "colorCode": "red" },
+      { "colorCode": "yellow" },
+      { "colorCode": "green" },
+      { "colorCode": "green" },
+      { "colorCode": "green" }
+    ],
+    [
+      { "colorCode": "yellow" },
+      { "colorCode": "red" },
+      { "colorCode": "red" },
+      { "colorCode": "red" },
+      { "colorCode": "yellow" },
+      { "colorCode": "green" },
+      { "colorCode": "red" },
+      { "colorCode": "green" },
+      { "colorCode": "green" },
+      { "colorCode": "yellow" }
+    ],
+    [
+      { "colorCode": "green" },
+      { "colorCode": "red" },
+      { "colorCode": "yellow" },
+      { "colorCode": "green" },
+      { "colorCode": "green" },
+      { "colorCode": "blue" },
+      { "colorCode": "red" },
+      { "colorCode": "red" },
+      { "colorCode": "red" },
+      { "colorCode": "blue" }
+    ],
+    [
+      { "colorCode": "blue" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "yellow" },
+      { "colorCode": "red" },
+      { "colorCode": "red" },
+      { "colorCode": "yellow" },
+      { "colorCode": "yellow" },
+      { "colorCode": "green" },
+      { "colorCode": "blue" }
+    ],
+    [
+      { "colorCode": "blue" },
+      { "colorCode": "green" },
+      { "colorCode": "red" },
+      { "colorCode": "blue" },
+      { "colorCode": "green" },
+      { "colorCode": "red" },
+      { "colorCode": "yellow" },
+      { "colorCode": "red" },
+      { "colorCode": "green" },
+      { "colorCode": "red" }
+    ],
+    [
+      { "colorCode": "yellow" },
+      { "colorCode": "green" },
+      { "colorCode": "yellow" },
+      { "colorCode": "red" },
+      { "colorCode": "red" },
+      { "colorCode": "yellow" },
+      { "colorCode": "blue" },
+      { "colorCode": "yellow" },
+      { "colorCode": "red" },
+      { "colorCode": "blue" }
+    ]
+  ]
+}
